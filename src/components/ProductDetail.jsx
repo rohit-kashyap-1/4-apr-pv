@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
-export default function ProductDetail() {
+export default function ProductDetail(props) {
     let id = useParams('')
     id = Number(id.id)
 
